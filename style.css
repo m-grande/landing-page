@@ -1,0 +1,26 @@
+body {
+    box-sizing:content-box;
+    background-color: rgb(255, 196, 0);
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    flex: 1;
+    
+}
+
+.header .link {
+    flex: 1;
+}
+
+.header .link ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 15px;
+}
