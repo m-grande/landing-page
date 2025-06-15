@@ -1,17 +1,24 @@
 body {
     box-sizing:content-box;
-    background-color: rgb(255, 196, 0);
+    background-image: url(./image/odin-background-image.jpeg);
+    background-size:cover;
+    background-position-x: center;
     margin: 0;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    height: 400px;
 }
 
 .logo {
     flex: 1;
-    
 }
 
 .header .link {
@@ -23,4 +30,82 @@ body {
     justify-content: flex-end;
     list-style-type: none;
     gap: 15px;
+}
+
+.first {
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+}
+
+.info-image {
+    display: flex;
+    flex-basis: 500px;
+    justify-content: center;
+}
+
+.info-image img {
+    width: 300px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-card {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1
+}
+
+.card img {
+    width: 200px;
+}
+
+.third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 600px;
+}
+
+.signature {
+    align-self: flex-end;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
 }
