@@ -41,24 +41,26 @@ body {
 }
 
 .first {
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    margin: 20px;
 }
 
 .info-text {
     display: flex;
     flex-direction: column;
-    flex-basis: 500px;
+    gap:10px;
+    max-width: 400px;
 }
 
 .info-image {
     display: flex;
-    flex-basis: 500px;
     justify-content: center;
+    max-width:400px;
 }
 
 .info-image img {
-    width: 300px;
+    max-width:100%;
 }
 
 .second {
