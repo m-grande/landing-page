@@ -1,26 +1,43 @@
 body {
     box-sizing:content-box;
-    background-image: url(./image/odin-background-image.jpeg);
+    background-image:linear-gradient(rgba(68, 68, 92, 0.404)),url(./image/odin-background-image.jpeg);
     background-size:cover;
     background-position-x: center;
     margin: 0px;
     font-family: "MedievalSharp", cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    color:rgb(253, 253, 253)
+    font-size: 20px;
+    color:rgb(253, 253, 253);
+}
+
+p, h1, h2, h3 {
+    margin: 10px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     height: 50px;
-    background-color: rgba(68, 68, 92, 0.404);
+}
+
+.logo {
+    display: flex;
+    flex:3 0 auto; 
+}
+
+.logo p {
+    margin: 0 20px;
+    max-width: 100px;
+    text-align: center;
+    align-self: center;
+    border-radius: 10%;
+    font-size: 30px;
 }
 
 .container {
     display: flex;
-    height: 400px;
+    margin: 20px;
 }
 
 .logo {
@@ -40,27 +57,31 @@ body {
     padding: 0;
 }
 
+img {
+    width:100%;
+    height: 100%;
+}
+
 .first {
-    justify-content: space-around;
-    align-items: center;
-    margin: 20px;
+    justify-content: center;
+    gap: 10px;
 }
 
 .info-text {
     display: flex;
     flex-direction: column;
     gap:10px;
-    max-width: 400px;
+    text-align: justify;
+    width: 450px;
+    margin:20px;
 }
 
 .info-image {
-    display: flex;
-    justify-content: center;
-    max-width:400px;
-}
-
-.info-image img {
-    max-width:100%;
+    width: 350px;
+    height: 350px;
+    align-self: center;
+    flex-shrink: 0;
+    margin:20px;
 }
 
 .second {
@@ -79,13 +100,19 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    flex:1
+    flex:1;
+    margin: 20px;
 }
 
-.card img {
-    width: 200px;
+.card-image {
+    width: 300px;
+    height: 300px;
+    margin:10px;
+}
+
+.card-text {
+    text-align: center;
 }
 
 .third {
@@ -97,7 +124,8 @@ body {
 .quote {
     display: flex;
     flex-direction: column;
-    flex-basis: 600px;
+    flex-basis: 1000px;
+    font-style: italic;
 }
 
 .signature {
@@ -112,24 +140,21 @@ body {
 
 .action {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-basis: 400px;
+    gap: 15px;
+    margin: 20px;
 }
+
+.action-text {
+    text-align: center;
+}
+
 
 footer {
     text-align: center;
+    margin: 20px;
 }
 
-.logo {
-    display: flex;
-    flex:3 0 auto; 
-}
-
-.logo p {
-    margin: 0 20px;
-    max-width: 100px;
-    text-align: center;
-    align-self: center;
-    border-radius: 10%;
-    font-size: 30px;
-}
