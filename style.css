@@ -59,6 +59,15 @@ p, h1, h2, h3 {
     font-size: 22px;
 }
 
+.link :active {
+    color: rgb(68, 68, 92);
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+}
+
 .container {
     display: flex;
 }
@@ -71,6 +80,8 @@ img {
 .first {
     justify-content: center;
     gap: 10px;
+    height: 700px;
+    scroll-margin-top: 65px;
 }
 
 .info-text {
@@ -95,6 +106,8 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    height: 600px;
+    scroll-margin-top: 65px;
 }
 
 .box-card {
@@ -123,14 +136,16 @@ img {
 
 .third {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 600px;
+    scroll-margin-top: 65px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
-    flex-basis: 1000px;
     font-style: italic;
 }
 
