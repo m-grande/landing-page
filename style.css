@@ -4,9 +4,7 @@ html {
 
 body {
     box-sizing:content-box;
-    background-image:linear-gradient(rgb(28 32 67 / 54%)), url(./image/odin-background-image.jpeg);
-    background-size:cover;
-    background-position-x: center;
+    background-color: rgb(27, 32, 54);
     margin: 20px;
     padding-top: 30px;
     font-family: "MedievalSharp", cursive;
