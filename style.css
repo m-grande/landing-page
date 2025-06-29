@@ -8,7 +8,7 @@ body {
     background-size:cover;
     background-position-x: center;
     margin: 20px;
-    padding-top: 45px;
+    padding-top: 30px;
     font-family: "MedievalSharp", cursive;
     font-style: normal;
     font-weight: 400;
@@ -17,7 +17,7 @@ body {
 }
 
 p {
-    margin: 10px;
+    text-align: center;
 }
 
 h1, h2 {
@@ -27,57 +27,38 @@ h1, h2 {
 
 .header {
     position:fixed;
+    display: flex;
     z-index: 1;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    height: 65px;
+    height: 50px;
     background-color: black;
 }
 
-.logo {
-    display: flex;
-    flex:3 0 auto;
-    margin-left: 20px;
-}
-
-.logo h1 {
-    align-self: center;
-    font-weight: 700;
-    font-size: 40px;
-}
-
-.header .link {
-    display: flex;
-    flex: 1 0 auto;
-    margin-right: 20px;
-}
-
-.header .link ul {
+.header ul {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     list-style-type: none;
-    gap: 15px;
     padding: 0;
-    font-size: 22px;
+    font-size: 20px;
 }
 
-.link a {
+a {
     color: white;
     text-decoration: none;
 }
 
-.link a:active {
+a:active {
     color: grey;
 }
 
 .container {
     display: flex;
+    margin-bottom: 30px;
 }
 
 img {
@@ -88,17 +69,16 @@ img {
 
 .first {
     justify-content: center;
-    scroll-margin-top: 65px;
+    scroll-margin-top: 50px;
     flex-wrap: wrap;
 }
 
 .info-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap:10px;
-    text-align: justify;
     width: 800px;
-    margin:20px;
 }
 
 .info-image {
@@ -114,7 +94,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    scroll-margin-top: 65px;
+    scroll-margin-top: 50px;
 }
 
 .box-card {
@@ -129,7 +109,6 @@ img {
     flex-direction: column;
     align-items: center;
     flex:1;
-    margin: 20px;
 }
 
 .card-image {
@@ -139,7 +118,7 @@ img {
 }
 
 .card-text {
-    text-align: justify;
+    
 }
 
 .third {
@@ -147,16 +126,16 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    scroll-margin-top: 65px;
+    scroll-margin-top: 50px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     font-style: italic;
-    margin: 20px;
     max-width:800px;
-    flex-basis: 350px;
+    flex-basis: 300px;
 }
 
 .signature {
@@ -174,12 +153,9 @@ img {
     margin: 20px;
 }
 
-.action-text {
-    text-align: center;
-}
+
 
 footer {
-    text-align: center;
     margin: 20px;
 }
 
